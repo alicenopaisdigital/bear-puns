@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #77b9b8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url( 'bear.svg' );
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-wrap: wrap;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 80%;
+
+}
+.container2 {
+  text-align: center;
+  padding: 20px;
+ font-size: 10px;
+}
+
+h1 {
+  color: #92511f;
+  margin-bottom: 20px;
+}
+
+#pun {
+  font-size: 22px;
+  color: #555;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button button {
+  background-color: #f6c467;
+  border: none;
+  color: #92511f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+  background-color: #ffaa33;
+}
